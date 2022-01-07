@@ -1,0 +1,15 @@
+{{ define "main" }}
+
+    <p>This is the list template</p>
+    
+    <h1>{{.Title}}</h1>
+    <h4>{{.Date}}</h4>
+
+    <!-- {{.Content}} -->
+
+    {{ range .Pages }}
+        <p>{{ .Title }}</p>
+        {{ .Content }}
+    {{ end }}
+
+{{ end }}

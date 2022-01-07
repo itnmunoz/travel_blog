@@ -1,0 +1,12 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+#theme = "paper"
+theme = "testheme"
+
+[taxonomies]
+  # tag, category are built-in taxonomies by default; here we are overwriting section
+  tag = "tags"
+  category = "categories"
+  feature = "features"
+  mood = "moods"
